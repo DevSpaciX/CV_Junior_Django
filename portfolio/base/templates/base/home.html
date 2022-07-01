@@ -1,0 +1,90 @@
+{% load static %}
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ivan Bolotnikov</title>
+    <link href="{% static '/css/main.css/'%}" rel="stylesheet"
+          type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    {% load static %}
+</head>
+<body>
+<br>
+<div class="container">
+    <div class="row">
+        <div class='col-md-3'>
+            <div class="card card-body h-100 border-info" id="profile-wrapper">
+                <img id='profile-pic' src="{% static 'images/ivan.jpg'%}">
+                <hr>
+                <h4>Hi i`m Ivan</h4>
+                <p>I love coding , doing research and collaborating </p>
+            </div>
+        </div>
+        <div class='col-md-9'>
+            <div class="card card-body h-100 border-info">
+                <h4>Trainee/Junior Python Developer</h4>
+                <p> From the age of 15 to 18, I ran my YouTube channel, which currently has 110,000 subscribers, I received a silver button from Google, but I realized that I wanted something more.
+                    <p>I wrote my first Hello
+                        World in December 2021 and from that moment my life as a programmer began.My choice fell on the Python language. I was immediately interested in the Django and Flask frameworks, which help to do very cool things - simply and conveniently.
+In the future, I plan to improve my knowledge in this area, as well as learn new languages, if necessary.<p>From everything that has been said above, you can understand that I am a very motivated person)
+                    </p>
+                <ul class="social_links">
+                    <li><img class="social" src="{%static 'images/instagram.png' %}"></li>
+                    <li><img class="social" src="{%static 'images/telegram.png' %}"></li>
+                    <li><img class="social" src="{%static 'images/linkedin.png' %}"></li>
+                    <li><img class="social" src="{%static 'images/youtube.png' %}"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class='col-md-6'>
+            <div class="card card-body h-100">
+                <h4>My courses</h4>
+                <p>
+                    I started my education by course Python Basic and after 2 month .           I graduated with exellent result from the Hillel School.
+                <p>My next goal was course Python Pro , with 4 month of hard work . And finally I got my diplom with exellent result , and couple of works in my portfolio)
+                    <p>Also took courses in management.</p>
+
+            </div>
+        </div>
+        <div class='col-md-6'>
+            <div class="card card-body h-100">
+                <h4>Hard skills</h4>
+                <p>
+                    I have strong knowledges in Python , Flask , Django . Aslo have good experience in Docker , Compose , Postgresql , Json
+                    <p> I know how to create a one-page site, a business card site, a store site with a shopping cart and payment, and automate the work of your company
+                <p>(Also learning C++)
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class='col-md-6'>
+            <div class="card card-body h-100">
+                <h4>My short term goals</h4>
+                <p>I want to become a part of a progressive company of people who know and can do more than me in order to quickly become the best version of myself in programming.</p>
+            </div>
+        </div>
+        <div class='col-md-6'>
+            <div class="card card-body h-100">
+                <h4>Soft skills</h4>
+                <p>
+                    I am motivated and inspired by her work man, I want self-improvement every day ! I am interested crypto industry, video recording and in English
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+</body>
+</html>
+
